@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilo de los elementos del menú */
+        li {
+            display: inline-block;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        /* Estilo de los enlaces del menú */
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 5px;
+            display: block;
+        }
+
+
+        /*IMPORTANT*/
+        /* Estilo de los menús desplegables */
+        ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        /* Aqui es mostra el menu passant ratoli per damunt */
+        li:hover > ul {
+            display: block;
+        }
+    </style>
+    <title>Menú Desplegable</title>
+</head>
+<body>
+
+    <!-- Menú principal -->
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li>
+            <a href="#">Servicios</a>
+            <!-- Menú desplegable -->
+            <ul>
+                <li><a href="#">Diseño web</a></li>
+                <li><a href="#">Desarrollo web</a></li>
+                <li><a href="#">SEO</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Contacto</a>
+            <!-- Menú desplegable -->
+            <ul>
+                <li><a href="#">Correo electrónico</a></li>
+                <li><a href="#">Teléfono</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
