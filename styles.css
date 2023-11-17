@@ -1,1 +1,31 @@
-dsa
+.divEstatic{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom:5px solid black;
+
+}
+
+.LOGO_LOL {
+    position: absolute;
+    top: -30px;
+    left: 200px;
+    height: 175px;
+    width: 325px;
+}
+
+.MenuDesplegable{
+
+    
+}
+
+
+.background{
+    width: 100%;
+    height: 10000px;
+}
