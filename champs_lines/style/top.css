@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*
+#sector_carrusel {
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#carrusel {
+    display: flex;
+    width: 300%; 
+    animation: slide 10s infinite; 
+}
+
+#carrusel img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#descripcion {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+@keyframes slide {
+    0% {
+    transform: translateX(0);
+    }
+    33.33% {
+    transform: translateX(-100%);
+    }
+    66.66% {
+    transform: translateX(-200%);
+    }
+    100% {
+    transform: translateX(0);
+    }
+}
+
+<div id="sector_carrusel">
+        <div id="carrusel">
+        <img src="./img/top.png">
+        <img src="./img/jungle.png">
+        <img src="./img/mid.png">
+        <img src="./img/adc.png">
+        <img src="./img/adc.png">
+        </div>
+        <div id="descripcion">
+            <h2>Titulo descripcion</h2>
+            <p>Esta es la descripcion</p>
+        </div>
+    </div>
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#sector_carrusel {
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#carrusel {
+    display: flex;
+    width: 500%; /* Ancho total de todas las imágenes */
+    transition: transform 0.5s ease;
+}
+
+#carrusel img {
+    width: 100%;
+    object-fit: cover;
+}
+
+label {
+    flex: 1;
+    cursor: pointer;
+}
+
+#descripcion {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cambiar manualmente al hacer clic en "Siguiente" */
+#imagen2:checked~#carrusel {
+    transform: translateX(-100%);
+}
+
+#imagen3:checked~#carrusel {
+    transform: translateX(-200%);
+}
+
+#imagen4:checked~#carrusel {
+    transform: translateX(-300%);
+}
+
+#imagen5:checked~#carrusel {
+    transform: translateX(-400%);
+}
+

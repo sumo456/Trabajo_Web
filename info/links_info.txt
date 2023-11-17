@@ -1,2 +1,3 @@
 https://mobalytics.gg/es_es/lol/items #ITEMS CON FILTRO DE TIPO DE ITEM Y CAMPEONES
 https://mobalytics.gg/es_es/lol/champions #CAMPEONES CON FILTRO DE LINIAS
+https://map.riftkit.net/ # fotos mapa
