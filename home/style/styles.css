@@ -220,4 +220,30 @@
     font-size: 70px;
     height: 100px;
     width: 100px;
+    color: #3b3b3b;
+}
+
+.IMATGE_PRINCIPAL{
+    
+
+
+}
+
+.lol_foto{
+    position: absolute;
+    top: 270px;
+    left: 950px;
+    height: 500px;
+    width: 700px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.fondo_foto_lol{
+    position: absolute;
+    background-color: green;
+    top: 270px;
+    left: 950px;
+    height: 600px;
+    width: 700px;
+    border-radius:30% 30% 90% 70%  / 30% 70% 70% 30%;
 }
