@@ -195,7 +195,7 @@ img {
     position: absolute;
     top: 140px;
     height: 1300px;
-    width: 1800px;
+    width: 100%;
     left: 0px;
 }
 #img_linia img{
