@@ -224,15 +224,18 @@
 }
 
 .IMATGE_PRINCIPAL{
-    
-
-
+    position: absolute;
+    position: absolute;
+    top: 270px;
+    left: 950px;
+    height: 500px;
+    width: 700px;
 }
 
 .lol_foto{
     position: absolute;
-    top: 270px;
-    left: 950px;
+    top: 0px;
+    left: 0px;
     height: 500px;
     width: 700px;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -241,8 +244,8 @@
 .fondo_foto_lol{
     position: absolute;
     background-color: green;
-    top: 270px;
-    left: 950px;
+    top: 0px;
+    left: 0px;
     height: 600px;
     width: 700px;
     border-radius:30% 30% 90% 70%  / 30% 70% 70% 30%;
