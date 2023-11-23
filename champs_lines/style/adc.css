@@ -53,7 +53,15 @@ img {
     background-position: 50% 50%;
     transition: left 0s .75s;
 }
-
+#slide-dot-1{
+    visibility: hidden;
+}
+#slide-dot-2{
+    visibility: hidden;
+}
+#slide-dot-3{
+    visibility: hidden;
+}
 [id^="slide"]:checked + .slide {
     left: 0;
     z-index: 100;
