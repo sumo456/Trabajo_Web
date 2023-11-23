@@ -22,7 +22,7 @@ img {
 
 .menu { /*Circulos cambio manual */
     position: absolute;
-    left: 0;
+    left: 100px;
     z-index: 900;
     width: 300px;
     bottom: 0;
