@@ -1,14 +1,49 @@
 body{
     background-color: antiquewhite;
 }
+p{
+    word-wrap: break-word;
+}
 *{
     margin: 0;
 }
+/*INICIO DIV IMG LINIA - DESCRICPCION LINIA*/
+.sector_linia{
+    position: absolute;
+    top: 140px;
+    height: 1300px;
+    width: 100%;
+    left: 0px;
+}
+#img_linia img{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    border-radius: 20px;
+    height: 400px;
+}
+#info_adc{
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+/*FINAL DIV IMG LINIA - DESCRIPCION LINIA*/
+/*INICIO FOTOS CHAMP Y DESCRIPCION*/
+#descripcion_champ{
+    position: absolute;
+    top: 730px;
+    left: 100px;
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /*INICIO CARRUSEL FOTOS*/
 img {
     max-width: 100%;
 }
-
 .slider-container{
     position: absolute;
     top: 600px;
@@ -19,7 +54,6 @@ img {
     text-align: center;
     background-color: antiquewhite;
 }
-
 .menu { /*Circulos cambio manual */
     position: absolute;
     left: 100px;
@@ -27,7 +61,6 @@ img {
     width: 300px;
     bottom: 0;
 }
-
 .menu label {
     cursor: pointer;
     display: inline-block;
@@ -40,7 +73,6 @@ img {
         background: red;
     }
 }
-
 .slide {
     width: 100%;
     height: 100%;
@@ -68,6 +100,7 @@ img {
     transition: left .65s ease-out;
 }
 /*FINAL CARRUSEL FOTOS*/
+/*FINAL FOTOS CHAMPS Y DESCRIPCION*/
 /*INICIO MARCO MENÚS*/
 .divEstatic{
     position: fixed;
@@ -78,6 +111,7 @@ img {
     background-color: grey;
     padding: 10px;
     text-align: center;
+    z-index: 999;
 }
 .LOGO_LOL {
     position: absolute;
@@ -247,23 +281,3 @@ img {
     width: 50px;
 }
 /*FINAL MARCO MENÚS*/
-/*INICIO DIV IMG LINIA - DESCRICPCION LINIA*/
-.sector_linia{
-    position: absolute;
-    top: 140px;
-    height: 1300px;
-    width: 100%;
-    left: 0px;
-}
-#img_linia img{
-    position: absolute;
-    left: 100px;
-    top: 150px;
-    border-radius: 20px;
-    height: 400px;
-}
-#info_adc{
-    position: absolute;
-    top: 350px;
-    left: 700px;
-}
