@@ -7,13 +7,43 @@
     <title>Projecte HTML</title>
 </head>
 <body>
+    <!--Començament background-->
     <div class="background">
     <p class="Titulo">LEAGUE OF LEGENDS</p>
-        <div class="IMATGE_PRINCIPAL">
-            <img src="./img/lol.jpg" class="lol_foto">
+        <div id="img_campeones">
+            <div class="slider-container">
+                <div class="menu">
+                    <label for="slide-dot-1"></label>
+                    <label for="slide-dot-2"></label>
+                    <label for="slide-dot-3"></label>
+                </div>                    
+                    <input id="slide-dot-1" type="radio" name="slides" checked>
+                    <div class="slide slide-1">
+                        <div class="fondo_foto_lol2"></div>
+                        <div class="fondo_foto_lol"></div>
+                        <img src="./img/lol.jpg" class="lol_foto">                        
+                    </div>
+                    
+                    <input id="slide-dot-2" type="radio" name="slides">
+                    <div class="slide slide-2">
+                        <img src="img/draven_arruinado.jpg">
+                    </div>
+                    
+                    <input id="slide-dot-3" type="radio" name="slides">
+                    <div class="slide slide-3">
+                        <img src="img/Samira_sola.jpg">
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div class="div_Explicacion_LOL">
+            <p id="Titul_LOL">League of Legends</p>
+            <p id="Explicacion">League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. <br> Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.</p>
         </div>
     </div>
+    <!--FINAL background-->
 
+    <!--A partir d'aqui es el div estatic-->
     <div class="divEstatic">
         <img src="../img/LOGO_LOL.png" class="LOGO_LOL">
         <button class="BOTO_HOME"><a href="./index.html">HOME</a></button>
