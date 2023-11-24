@@ -6,3 +6,10 @@ git push origin main # Para subir los archivos a la rama main <br>
 git pull origin main# Para descargar los archivos actualizados <br>
 <br>
 PROPUESTAS DE CANVIOS
+<br>
+Orden Home
+3 modos de LOL(TFT, RUNETERRA, LOL)<br>
+Arcane<br>
+Ultimos 4 campeones<br>
+Video intro lol<br>
+Seis ultimos parches<br>
