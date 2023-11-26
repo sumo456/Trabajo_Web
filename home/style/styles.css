@@ -344,7 +344,7 @@ img {
     font-size: 20px;
     color: black;
     position: absolute;
-    left: 110px;
+    left: 310px;
     top: 85px;
 }
 
@@ -362,7 +362,7 @@ left: 0px;
     border-radius: 50%;
 }
 
-.TITUL_EXPLICAIO_LOL{
+#TITUL_EXPLICAIO_LOL{
     height: 100px;
     width: 250px;
     position: absolute;
@@ -371,18 +371,33 @@ left: 0px;
     font-size: 23px;
 }
 
-.INFO_ECPLICAIO_LOL{
+#INFO_ECPLICAIO_LOL{
     height: 100px;
     width: 250px;
     position: absolute;
     top: 290px;
     left: 420px;
+    text-align: justify;
+}
 
+#PAGINA_LOL{
+    position: absolute;
+    top: 350px;
+    left: 205px;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 190px;
+    border-radius: 20px;
 }
 
 #TFT{
     position: absolute;
-    left: 500px;
+    left: 570px;
 }
 
 #FOTO_TFT_EXPLICACIO{
@@ -392,4 +407,54 @@ left: 0px;
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+#TITUL_EXPLICACIO_TFT{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 230px;
+    left: 420px;
+    font-size: 23px;
+}
+
+#INFO_ECPLICACIO_TFT{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 290px;
+    left: 420px;
+    text-align: justify;
+}
+
+#LOR{
+    position: absolute;
+    left: 1140px;
+}
+
+#FOTO_LOR_EXPLICACIO{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#TITUL_EXPLICACIO_LOR{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 230px;
+    left: 420px;
+    font-size: 23px;
+}
+
+#INFO_EXPLICACIO_LOR{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 290px;
+    left: 420px;
+    text-align: justify;
 }
