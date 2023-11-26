@@ -137,7 +137,6 @@ z-index: 999;
     display: block;
 }
 
-
 .BOTO_MUNDIAL{
     position: absolute;
     top: 50px;
@@ -362,6 +361,10 @@ left: 0px;
     border-radius: 50%;
 }
 
+#LOL_FOTO{
+    border-radius: 50%;
+}
+
 #TITUL_EXPLICAIO_LOL{
     height: 100px;
     width: 250px;
@@ -402,10 +405,14 @@ left: 0px;
 
 #FOTO_TFT_EXPLICACIO{
     position: absolute;
-    top: 200px;
+    top: 190px;
     left: 200px;
     height: 200px;
     width: 200px;
+    border-radius: 20px;
+}
+
+#TFT_FOTO{
     border-radius: 50%;
 }
 
@@ -427,6 +434,21 @@ left: 0px;
     text-align: justify;
 }
 
+#PAGINA_TFT{
+    position: absolute;
+    top: 350px;
+    left: 205px;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 190px;
+    border-radius: 20px;
+}
+
 #LOR{
     position: absolute;
     left: 1140px;
@@ -438,6 +460,10 @@ left: 0px;
     left: 200px;
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+}
+
+#LOR_FOTO{
     border-radius: 50%;
 }
 
@@ -458,3 +484,84 @@ left: 0px;
     left: 420px;
     text-align: justify;
 }
+
+#PAGINA_LOR{
+    position: absolute;
+    top: 350px;
+    left: 205px;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 190px;
+    border-radius: 20px;
+}
+/*FINAL INFO LOL*/
+/*AINICI ARCANE*/
+#Arcane{
+    position: absolute;
+    top: 1550px;
+    left: 0px;
+    width: 100%;
+    height: 1000px;
+}
+
+#img_Arcane_1{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    height: 400px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+#img_Arcane_2{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#ARCANE_INFORMACIO{
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    height: 700px;
+    width: 650px;
+}
+
+#TITUL_ARCANE{
+    position: absolute;
+    top: 30px;
+    left: 260px;
+    font-size: 40px;
+}
+
+#INFO_ARCANE{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 550px;
+    text-align: justify;
+}
+
+#PAGINA_ARCANE{
+    position: absolute;
+    top: 650px;
+    left: 260px;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 190px;
+    border-radius: 20px;
+}
+/*FINAL ARCANE*/
