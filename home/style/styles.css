@@ -325,7 +325,7 @@ img {
     top: 1000px;
     left: 0px;
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: pink;
     border-radius: 100px;
 }
@@ -346,4 +346,50 @@ img {
     position: absolute;
     left: 110px;
     top: 85px;
+}
+
+#LOL{
+position: absolute;
+left: 0px;
+}
+
+#FOTO_LOL_EXPLICACIO{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.TITUL_EXPLICAIO_LOL{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 230px;
+    left: 420px;
+    font-size: 23px;
+}
+
+.INFO_ECPLICAIO_LOL{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 290px;
+    left: 420px;
+
+}
+
+#TFT{
+    position: absolute;
+    left: 500px;
+}
+
+#FOTO_TFT_EXPLICACIO{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
