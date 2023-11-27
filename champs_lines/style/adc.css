@@ -39,8 +39,13 @@ p{
     flex-direction: column;
     justify-content: center;
 }
+#descripcion_champ{
+    position: absolute;
+    top: 900px;
+    background-color: #555;
+    opacity: .2;
+}
 /*INICIO CARRUSEL FOTOS*/
-
 img {
     max-width: 100%;
 }
@@ -99,7 +104,6 @@ img {
     z-index: 100;
     transition: left .65s ease-out;
 }
-
 /*FINAL CARRUSEL FOTOS*/
 /*FINAL FOTOS CHAMPS Y DESCRIPCION*/
 /*INICIO MARCO MENÚS*/
