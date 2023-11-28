@@ -1114,3 +1114,79 @@ a, a:visited, button{
     width: 200px;
     border-radius: 50%;
 }
+
+#PREGUNTAS_FRECUENTES{
+    position: absolute;
+    top: 6650px;
+    width: 100%;
+    height: 600px;
+    background-color: pink;
+    border-radius: 100px;
+}
+
+#PREGUNTAS_FRECUENTES_TITULO{
+    position: absolute;
+    top: 20px;
+    left: 770px;
+    font-size: 30px;
+}
+
+#PREGUNTAS_FRECUENTES_SUBTITULO{
+    position: absolute;
+    top: 60px;
+    left: 770px;
+    font-size: 15px;
+}
+
+#PREGUNTA_1{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+}
+
+#PREGUNTA_2{
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    width: 100%;
+}
+
+#PREGUNTA_3{
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    width: 100%;
+}
+
+#PREGUNTA_4{
+    position: absolute;
+    top: 420px;
+    left: 0px;
+    width: 100%;
+}
+
+#PREGUNTA_5{
+    position: absolute;
+    top: 520px;
+    left: 0px;
+    width: 100%;
+}
+
+
+.PREGUNTA{
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    font-size: 20px;
+}
+
+.BOTO_PREGUNTA{
+    position: absolute;
+    top: -2px;
+    left: 1370px;
+    font-size: 20px;
+    background-color: #333;
+    border-radius: 100px;
+}
+
