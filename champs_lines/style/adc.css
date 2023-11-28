@@ -3,6 +3,8 @@ body{
 }
 p{
     word-wrap: break-word;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
 *{
     margin: 0;
@@ -20,7 +22,7 @@ p{
     left: 100px;
     top: 150px;
     border-radius: 20px;
-    height: 400px;
+    height: 500px;
 }
 #info_adc{
     position: absolute;
@@ -51,17 +53,18 @@ img {
 }
 .slider-container{
     position: absolute;
-    top: 600px;
-    left: 1200px;
-    height: 500px;
-    width: 500px;
+    top: 800px;
+    left: 500px;
+    height: 900px;
+    width: 900px;
     overflow: hidden; 
     text-align: center;
     background-color: antiquewhite;
 }
 .menu { /*Circulos cambio manual */
     position: absolute;
-    left: 100px;
+    top: 680px;
+    left: 300px;
     z-index: 900;
     width: 300px;
     bottom: 0;
