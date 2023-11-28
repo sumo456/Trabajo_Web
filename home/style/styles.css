@@ -2,6 +2,11 @@
     margin: 0;
     word-wrap: break-word;
 }
+p{
+    word-wrap: break-word;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
 .divEstatic{
     position: fixed;
     top: 0;
@@ -186,7 +191,7 @@ z-index: 999;
     left: 1500px;
     top: 47px;
     height: 55px;
-    width: 350px;
+    width: 330px;
     background-color: #333;
     border-radius: 20px;
 }
@@ -194,6 +199,9 @@ z-index: 999;
 .CONTACTE{
     color: white;
     font-size: 10px;
+    position: absolute;
+    left: 70px;
+    top: 18px;
 }
 
 #Foto_Correu{
@@ -343,8 +351,9 @@ img {
     font-size: 20px;
     color: black;
     position: absolute;
-    left: 310px;
+    left: 100px;
     top: 85px;
+    width: 1700px;
 }
 
 #LOL{
@@ -557,7 +566,7 @@ a, a:visited, button{
 
 #PAGINA_ARCANE{
     position: absolute;
-    top: 800px;
+    top: 970px;
     left: 260px;
     background-color: #333;
     color: white;
@@ -573,7 +582,7 @@ a, a:visited, button{
 /*INICI QUATRE ULTIMS CHAMPS*/
 #Quatre_Champs{
     position: absolute;
-    top: 2600px;
+    top: 2750px;
     height: 700px;
     width: 100%;
     background-color: pink;
@@ -662,7 +671,7 @@ a, a:visited, button{
     top: 100px;
     left: 1400px;
     height: 600px;
-    width: 600px;
+    width: 500px;
 }
 
 #PAGINA_HWEI{
@@ -702,4 +711,294 @@ a, a:visited, button{
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     height: 300px;
     width: 300px;
+}
+
+#VIDEO_LOL{
+    position: absolute;
+    top: 3550px;
+    left: 70px;
+    width: 1800px;
+    height: 600px;
+}
+
+#PARCHE_LOL{
+    position: absolute;
+    top: -10px;
+    left: 500px;
+    width: 900px;
+    height: 600px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+#PARCHES{
+    position: absolute;
+    top: 3950px;
+    height: 1200px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 100px;
+    
+}
+
+
+
+#INFO_PARCHE1{
+    position: absolute;
+    top: 353px;
+    left: 360px;
+    font-size: 14px;
+    width: 250px;
+    text-align: justify;
+}
+
+#PAGINA_PARCHE1{
+    position: absolute;
+    top: 470px;
+    left: 50px;
+    height: 100px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 30px;
+}
+
+#PARCHE_FOTO{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#VERSION1{
+    position: absolute;
+    top: 320px;
+    left: 360px;
+    font-size: 30px;
+}
+
+#PARCHE2_FOTO{
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#PAGINA_PARCHE2{
+    position: absolute;
+    top: 470px;
+    left: 700px;
+    height: 100px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 30px;
+}
+
+#VERSION2{
+    position: absolute;
+    top: 320px;
+    left: 1015px;
+    font-size: 30px;
+}
+
+#INFO_PARCHE2{
+    position: absolute;
+    top: 353px;
+    left: 1015px;
+    font-size: 14px;
+    width: 250px;
+    text-align: justify;
+}
+
+#PARCHE3_FOTO{
+    position: absolute;
+    top: 250px;
+    left: 1300px;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#PAGINA_PARCHE3{
+    position: absolute;
+    top: 470px;
+    left: 1300px;
+    height: 100px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 30px;
+}
+
+#VERSION3{
+    position: absolute;
+    top: 320px;
+    left: 1615px;
+    font-size: 30px;
+}
+
+#INFO_PARCHE3{
+    position: absolute;
+    top: 353px;
+    left: 1615px;
+    font-size: 14px;
+    width: 250px;
+    text-align: justify;
+}
+
+#INFO_PARCHE4{
+    position: absolute;
+    top: 853px;
+    left: 360px;
+    font-size: 14px;
+    width: 250px;
+    text-align: justify;
+}
+
+#PAGINA_PARCHE4{
+    position: absolute;
+    top: 970px;
+    left: 50px;
+    height: 100px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 30px;
+}
+
+#PARCHE4_FOTO{
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#VERSION4{
+    position: absolute;
+    top: 820px;
+    left: 360px;
+    font-size: 30px;
+}
+
+#PARCHE5_FOTO{
+    position: absolute;
+    top: 750px;
+    left: 700px;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#PAGINA_PARCHE5{
+    position: absolute;
+    top: 970px;
+    left: 700px;
+    height: 100px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 30px;
+}
+
+#VERSION5{
+    position: absolute;
+    top: 820px;
+    left: 1015px;
+    font-size: 30px;
+}
+
+#INFO_PARCHE5{
+    position: absolute;
+    top: 853px;
+    left: 1015px;
+    font-size: 14px;
+    width: 250px;
+    text-align: justify;
+}
+
+#PARCHE6_FOTO{
+    position: absolute;
+    top: 750px;
+    left: 1300px;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#PAGINA_PARCHE6{
+    position: absolute;
+    top: 970px;
+    left: 1300px;
+    height: 100px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 30px;
+}
+
+#VERSION6{
+    position: absolute;
+    top: 820px;
+    left: 1615px;
+    font-size: 30px;
+}
+
+#INFO_PARCHE6{
+    position: absolute;
+    top: 853px;
+    left: 1615px;
+    font-size: 14px;
+    width: 250px;
+    text-align: justify;
+}
+
+#CHAMPS_USADOS{
+    position: absolute;
+    top: 5200px;
+    width: 100%;
+    height: 700px;
+}
+
+#TITULO_CHAMPS{
+    position: absolute;
+    top: 10px;
+    left: 230px;
+    font-size: 40px;
+}
+
+#ORNN{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+
+}
+
+#TRUNDLE{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+
+#IVERN{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 1250px;
+}
+
+.IMG_CHAMP{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    height: 350px;
+}
+
+.WIN_RATE{
+    font-size: 25px;
+    position: absolute;
+    top: 370px;
+    left: 70px;
 }
