@@ -1064,3 +1064,27 @@ a, a:visited, button{
     left: 600px;
     font-size: 40px;
 }
+
+#YUMMI{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#TFT_ANIMAL{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#Flash{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#RAMMUS{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
