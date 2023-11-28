@@ -324,6 +324,46 @@ img {
     width: 750px;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
+
+.fondo_foto_lol4{
+    position: absolute;
+    background-color: #5b8dfc;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 700px;
+    border-radius: 60% 40% 40% 60% / 60% 60% 40% 40%;
+}
+
+.fondo_foto_lol3{
+    position: absolute;
+    background-color: #5dcdff;
+    top: 0px;
+    left: 0px;
+    height: 650px;
+    width: 750px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.fondo_foto_lol6{
+    position: absolute;
+    background-color: #5b8dfc;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 700px;
+    border-radius: 60% 40% 40% 60% / 60% 60% 40% 40%;
+}
+
+.fondo_foto_lol5{
+    position: absolute;
+    background-color: #5dcdff;
+    top: 0px;
+    left: 0px;
+    height: 650px;
+    width: 750px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
 /*FINS AQUI TOT LO DEL MENU DE FOTOS */
 
 /*AIXO ES LA INFO DEL LOL*/
