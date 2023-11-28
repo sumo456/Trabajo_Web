@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+p{
+    word-wrap: break-word;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    margin: 0;
+}
