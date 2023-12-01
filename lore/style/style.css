@@ -2,6 +2,11 @@
     margin: 0;
     word-wrap: break-word;
 }
+p{
+    word-wrap: break-word;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .divEstatic{
     position: fixed;
@@ -196,7 +201,7 @@ z-index: 999;
     font-size: 10px;
     position: absolute;
     left: 70px;
-    top: 7px;
+    top: 17px;
 }
 
 #Foto_Correu{
@@ -317,6 +322,20 @@ z-index: 999;
     width: 1100px;
 }
 
+#TARGON{
+    position: absolute;
+    top: 2800px;
+    left: 1395px;
+    width: 100px;
+}
+
+#ZAUN{
+    position: absolute;
+    top: 3050px;
+    left: 10px;
+    width: 1100px;
+}
+
 .FOTO_REGIO_DRETA{
     position: absolute;
     top: 0px;
@@ -350,4 +369,80 @@ z-index: 999;
     left: -460px;
     font-size: 30px;
     width: 700px;
+}
+
+#LORE_CHAMPS{
+    position: absolute;
+    top: 3900px;
+    width: 100%;
+    height: 700px;
+}
+
+#TITULO_LORE{
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    width: 700px;
+    font-size: 50px;
+}
+
+#KSANTE{
+    position: absolute;
+    top: -50px;
+    left: -70px;
+}
+
+.NOM_CHAMP{
+    font-size: 40px;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    width: 600px;
+}
+
+.LORE_CHAMP{
+    font-size: 15px;
+    position: absolute;
+    top: 850px;
+    left: 350px;
+    width: 500px;
+    text-align: justify;
+}
+
+.FOTO_CHAMP{
+    position: absolute;
+    top: 315px;
+    left: 350px;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.BOTO_CHAMP{
+    position: absolute;
+    top: 1050px;
+    left: 500px;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 190px;
+    border-radius: 20px;
+}
+
+#NUNU_Y_WILLYMP{
+    position: absolute;
+    top: -50px;
+    left: 820px;
+}
+
+#NOM_CHAMP_NUNU{
+    font-size: 40px;
+    position: absolute;
+    top: 250px;
+    left: 430px;
+    width: 600px;
 }
