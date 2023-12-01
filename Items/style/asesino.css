@@ -25,13 +25,31 @@ p{
     align-items: center;
 }
 #items_miticos{
-    background-color: #555;
     position: absolute;
     top: 300px;
     height: 500px;
     width: 1870px;
     display: flex;
     justify-content: space-evenly;
+}
+#titulo{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+}
+#items_legendarios{
+    position: absolute;
+    top: 1100px;
+    height: 500px;
+    width: 1870px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #555;
+}
+.titulo{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
 }
 /*INICIO CARTA FOTO*/
 .container {
@@ -74,7 +92,7 @@ p{
 }
 .container .card .content {
     position : relative;
-    top : -180px;
+    top : -220px;
     padding : 10px 15px;
     color : #111;
     text-align : center;
@@ -91,7 +109,43 @@ p{
     opacity : 1;
     transition-delay: 0.2s;
 }
-
+/*INICIO CARTA FOTO MITICOS*/
+.youmuu .card_youmuu:hover{
+    height : 750px;
+}
+.filo_infinito .card_filo .content_filo{
+    position : relative;
+    top : -150px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+}
+.filo_infinito .card_filo:hover{
+    height : 450px;
+}
+/*FINAL CARTA FOTO MITICOS*/
+/*INICIO CARTA FOTO LEGENDARIOS*/
+.container .card_guja:hover{
+    height: 450px;
+}
+.container .card_guja .content_guja{
+    top : -150px;
+}
+.container .card_colmillo_de_serpiente:hover{
+    height: 450px;
+}
+.container .card_colmillo_de_serpiente .content_colmillo_de_serpiente{
+    top : -180px;
+}
+.container .card_fauces:hover{
+    height: 420px;
+}
+.container .card_fauces .content_fauces{
+    top: -150px;
+}
 /*FINAL CARTA FOTO*/
 /*INICIO MARCO MENÚS*/
 .divEstatic{
@@ -99,7 +153,7 @@ p{
     top: 0;
     left: 0;
     width: 100%;
-    height: 120px;
+    height: 140px;
     background-color: grey;
     padding: 10px;
     text-align: center;
@@ -278,7 +332,7 @@ p{
     left: 1500px;
     top: 47px;
     height: 55px;
-    width: 350px;
+    width: 330px;
     background-color: #333;
     border-radius: 20px;
 }
@@ -286,6 +340,9 @@ p{
 .CONTACTE{
     color: white;
     font-size: 10px;
+    position: absolute;
+    left: 70px;
+    top: 18px;
 }
 
 #Foto_Correu{
