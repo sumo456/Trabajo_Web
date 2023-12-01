@@ -8,6 +8,8 @@ p{
 }
 *{
     margin: 0;
+    box-sizing : border-box;
+    padding: 0;
 }
 #seccion_items{
     position: absolute;
@@ -18,10 +20,79 @@ p{
 #descr_tipo_champ{
     position: absolute;
     height: 300px;
-    width: 800px;
-
-    background-color: #555;
+    width: 1300px;
+    display: flex;
+    align-items: center;
 }
+#items_miticos{
+    background-color: #555;
+    position: absolute;
+    top: 300px;
+    height: 500px;
+    width: 1870px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*INICIO CARTA FOTO*/
+.container {
+    position : relative;
+    width : 400px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-wrap : wrap;
+    padding : 30px;  
+}
+.container .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+}
+.container .card:hover {
+    height : 520px;    
+}
+.container .card .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+}
+.container .card .image img {
+    max-width: 100%;
+    border-radius : 15px;
+}
+.container .card .content {
+    position : relative;
+    top : -180px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+}
+.container .card .content p{
+    font-size: 14px;
+}
+.container .card:hover .content {
+    margin-top : 30px;
+    visibility : visible;
+    opacity : 1;
+    transition-delay: 0.2s;
+}
+
+/*FINAL CARTA FOTO*/
 /*INICIO MARCO MENÚS*/
 .divEstatic{
     position: fixed;
