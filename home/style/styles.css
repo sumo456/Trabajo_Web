@@ -17,7 +17,6 @@ p{
     padding: 10px;
     text-align: center;
 z-index: 999;
-
 }
 
 .LOGO_LOL {
@@ -229,7 +228,7 @@ z-index: 999;
     font-size: 70px;
     height: 100px;
     width: 370px;
-    color: #3b3b3b;
+    color: black;
 }
 
 /* AIXO ES EL MENU DE FOTOS */
