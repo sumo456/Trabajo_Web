@@ -421,7 +421,7 @@ z-index: 999;
 .BOTO_CHAMP{
     position: absolute;
     top: 1050px;
-    left: 500px;
+    left: 400px;
     background-color: #333;
     color: white;
     padding: 12px;
@@ -429,8 +429,16 @@ z-index: 999;
     border: none;
     cursor: pointer;
     height: 70px;
-    width: 190px;
+    width: 400px;
     border-radius: 20px;
+}
+
+.BOTO_CHAMP a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
 }
 
 #NUNU_Y_WILLYMP{
@@ -445,4 +453,94 @@ z-index: 999;
     top: 250px;
     left: 430px;
     width: 600px;
+}
+
+#BOTO_MAS_LORE{
+    position: absolute;
+    top: 1250px;
+    left: 785px;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#BOTO_MAS_LORE a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+#DIEZ_RAZAS_MAS_COMUNES{
+    position: absolute;
+    top: 5400px;
+    width: 100%;
+    height: 700px;
+}
+
+#TITULO_RAZAS{
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    width: 1680px;
+    font-size: 50px;
+}
+
+#HUMANO{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+
+#YORDLES{
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+
+#VASTAYA{
+    position: absolute;
+    top: 300px;
+    left: 1350px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+
+.NOMBRE_RAZA{
+    font-size: 30px;
+    position: absolute;
+    left: 140px;
+}
+
+.FOTO_RAZA{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.INFO_RAZA{
+    position: absolute;
+    top: 300px;
+    left: 25px;
+    height: 200px;
+    width: 350px;
+    font-size: 12px;
+    text-align: center;
 }
