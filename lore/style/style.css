@@ -238,16 +238,26 @@ z-index: 999;
     height: 200px;
 }
 
+#TITULO_REGIONES{
+    position: absolute;
+    top: 0px;
+    left: 550px;
+    font-size: 50px;
+    height: 100px;
+    width: 1270px;
+    color: black;
+}
+
 #AGUAS_ESTANCADAS{
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 10px;
     width: 1100px;
 }
 
 #CIUDAD_BANDLE{
     position: absolute;
-    top: 300px;
+    top: 600px;
     left: 1395px;
     width: 100px;
 }
@@ -366,11 +376,30 @@ z-index: 999;
     font-size: 20px;
     position: absolute;
     top: 110px;
-    left: -460px;
+    left: -630px;
     font-size: 30px;
-    width: 700px;
+    width: 600px;
 }
 
+.INFO_DRETA{
+    font-size: 12px;
+    position: absolute;
+    top: 155px;
+    left: 540px;
+    text-align: justify;
+}
+
+.INFO_ESQUERRA{
+    font-size: 12px;
+    position: absolute;
+    top: 155px;
+    left: -630px;
+    width: 600px;
+    text-align: justify;
+}
+
+/* FINAL REGIONES */
+/* INICIO LORE CHAMPS */
 #LORE_CHAMPS{
     position: absolute;
     top: 3900px;
@@ -478,6 +507,8 @@ z-index: 999;
     font-size: 25px;
 }
 
+/* FINAL LORE CHAMPS */
+/* INICI RAZAS MAS COMUNES */
 #DIEZ_RAZAS_MAS_COMUNES{
     position: absolute;
     top: 5400px;
@@ -499,7 +530,7 @@ z-index: 999;
     left: 150px;
     height: 400px;
     width: 400px;
-    background-color: aqua;
+    background-color: pink;
 }
 
 #YORDLES{
@@ -508,7 +539,8 @@ z-index: 999;
     left: 750px;
     height: 400px;
     width: 400px;
-    background-color: aqua;
+    background-color: pink;
+    border-radius: 30px;
 }
 
 #VASTAYA{
@@ -517,7 +549,108 @@ z-index: 999;
     left: 1350px;
     height: 400px;
     width: 400px;
-    background-color: aqua;
+    background-color: pink;
+    border-radius: 30px;
+}
+
+#Ascendidos{
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 30px;
+}
+
+#ASCENDIDOS_NOMBRE{
+    font-size: 30px;
+    position: absolute;
+    left: 110px;
+}
+
+#NO_MUERTOS{
+    position: absolute;
+    top: 800px;
+    left: 750px;
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 30px;
+}
+
+#NO_MUERTOS_NOMBRE{
+    font-size: 30px;
+    position: absolute;
+    left: 110px;
+}
+
+#VOIDBORN{
+    position: absolute;
+    top: 800px;
+    left: 1350px;
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 30px;
+}
+
+#Targonianos_Celestiales{
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 30px;
+}
+
+#TARHGONIANOS_NOMBRE{
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+}
+
+#DEMONIOS{
+    position: absolute;
+    top: 1300px;
+    left: 750px;
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 30px;
+}
+
+#DEMONIOS_NOMBRE{
+    font-size: 30px;
+    position: absolute;
+    left: 125px;
+}
+
+#CREADOS_ARTIFICIALES{
+    position: absolute;
+    top: 1300px;
+    left: 1350px;
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 30px;
+}
+
+#CREADOS_NOMBRE{
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+}
+
+#Iceborn{
+    position: absolute;
+    top: 1800px;
+    left: 750px;
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 30px;
 }
 
 .NOMBRE_RAZA{
@@ -544,3 +677,4 @@ z-index: 999;
     font-size: 12px;
     text-align: center;
 }
+/* FINAL RAZAS */
