@@ -152,11 +152,11 @@ img {
 }
 /*INICIO CARTA FOTO MITICOS*/
 .youmuu .card_youmuu:hover{
-    height : 750px;
+    height : 650px;
 }
 .filo_infinito .card_filo .content_filo{
     position : relative;
-    top : -150px;
+    top : -180px;
     padding : 10px 15px;
     color : #111;
     text-align : center;
@@ -165,7 +165,7 @@ img {
     transition : 0.3s ease-in-out;
 }
 .filo_infinito .card_filo:hover{
-    height : 450px;
+    height : 550px;
 }
 /*FINAL CARTA FOTO MITICOS*/
 /*INICIO ITEMS LEGENDARIOS*/
